@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: linear-gradient(to top, #181b1f 0%, #33393f 100%);
+}
+
+.site-wrapper{
+    height: auto;
+}
+
+/* =============================================================
+============================HEADER============================== */
+.header{
+    height: 4.375rem;
+}
+
+.navigation-bar{
+    display: block;
+    text-align: right;
+    /* left:990px;
+    top: 0.625rem; */
+    padding-top: 3rem;
+} 
+
+.navigation-bar a{
+    text-decoration: none;
+    padding-right: 3.125rem; 
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.25rem;
+    color: rgb(152,152,152);
+}
+
+.navigation-bar a:hover{
+    color: rgba(228, 115, 102, 0.486);
+}
+
+/* =============================================================
+============================Headline========================== */
+
+.headline-wrapper{
+    margin: 0 auto;
+    width: 44.375rem;
+    height: 50px;
+    margin-top: 7.5rem;
+    margin-bottom: 4rem;
+}
+
+.flex-wrapper{
+    display: flex;
+}
+
+.greetings-container-projects{
+    flex: 2;
+}
+
+.greetings-container-projects h3{
+    font-size: 1.875rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(192,192,192); 
+    margin: 0;
+    padding:0;
+}
+
+.straiht-line-projects{
+    flex: 5;
+    border-bottom: 4px solid rgb(228, 115, 102);
+    margin-bottom: 5px;
+}
+
+/*=====================Portfolio=========================
+=======================================================*/
+
+.portfolio-wrapper{
+    margin: 0 auto;
+    width: 500px;
+}
+
+.project-container{
+    width: 500px;
+    margin-bottom: 3rem;
+    height: auto;
+}
+
+h5{
+    padding: 0;
+    margin-bottom: 2px;
+    color: rgb(152,152,152);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.thumbnail{
+    width: 500px;
+}
+
+.thumbnail-small{
+    padding: 0 120px 0 120px;
+    width: 300px;
+}
+
+#hidden{
+    display: none;
+} 
+
+
+
+/* =============================================================
+============================Footer============================= */
+
+.footer{
+    height: 130px;
+    margin: 0 3.125rem 20px 3.125rem;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-wrapper{
+    width: 100px;
+}
+
+.icons-wrapper a{
+    text-decoration: none;
+}
+
+
+.icon-btn{
+    color: rgb(152,152,152);
+    font-size: 25px;
+    text-align: left;
+    display: block;
+    padding-top: 18px;
+}   
+
+.page-number{
+    width: 100px;   
+    text-align: center;
+    font-size: 35px;
+    padding-top: 95px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(152,152,152);
+}
+
+.back-btn{
+    width: 100px;
+}
+
+.text-wrapper{
+    height: 80%;
+    font-size: 1.25rem;
+    text-align: right;
+    writing-mode: tb-rl;
+    margin-left: 77px;
+    padding-bottom: 3px;  
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.text-wrapper a{
+    text-decoration: none;
+    color: rgb(152,152,152);
+}
+
+.vertical-line-wrapper{
+    height: 20%;
+    border-right: 2px solid rgb(152,152,152);
+    margin-right: 15px;
+}
